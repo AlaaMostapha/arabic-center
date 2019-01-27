@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Cairo-Regular";
+  src: url("Cairo-Regular.ttf"); }
+
+@font-face {
+  font-family: "Cairo-Bold";
+  src: url("Cairo-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Cairo-SemiBold";
+  src: url("Cairo-SemiBold.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("OpenSans-Regular.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("OpenSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("OpenSans-SemiBold.ttf"); }
+
+  a button{
+    cursor: pointer;
+  }
+
+  #main img{
+      width: 85%;
+      background: white;
+      box-shadow: 0 5px 10px #5f5d5d;
+      border: 14px solid #bcd8e0;
+      border-image-slice: 20;
+      text-align: center;
+      /* border-radius: 27px; */
+      padding: 0.5rem;
+      border-radius: 0px 21px 0px 21px;
+}
+#main .diff{
+  border: 14px solid #bfbcbc;
+}
+#main img:hover{
+  box-shadow: 7px 7px 7px -2px rgba(0, 0, 0,0.31);
+  transform: scale(1.2);
+}
+button{
+  background: #df232a;
+  border: 0;
+  border: 1px solid transparent;
+  padding: .375rem 1.8rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  color: white;
+}
+
+@media (min-width: 576px){
+  .modal-dialog {
+    max-width: 600px;
+  }
+}
